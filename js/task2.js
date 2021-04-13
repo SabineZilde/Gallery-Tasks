@@ -6,7 +6,7 @@ $(document).ready(function() {
     $('#img6-large').hide();
 });
 
-$('#img1').on('click', function() {
+$('#img1').hover(function() {
     $('#img1-large').show();
     $('#img2-large').hide();
     $('#img3-large').hide();
@@ -15,7 +15,7 @@ $('#img1').on('click', function() {
     $('#img6-large').hide();
 });
 
-$('#img2').on('click', function() {
+$('#img2').hover(function() {
     $('#img1-large').hide();
     $('#img2-large').show();
     $('#img3-large').hide();
@@ -24,7 +24,7 @@ $('#img2').on('click', function() {
     $('#img6-large').hide();
 });
 
-$('#img3').on('click', function() {
+$('#img3').hover(function() {
     $('#img1-large').hide();
     $('#img2-large').hide();
     $('#img3-large').show();
@@ -33,7 +33,7 @@ $('#img3').on('click', function() {
     $('#img6-large').hide();
 });
 
-$('#img4').on('click', function() {
+$('#img4').hover(function() {
     $('#img1-large').hide();
     $('#img2-large').hide();
     $('#img3-large').hide();
@@ -42,7 +42,7 @@ $('#img4').on('click', function() {
     $('#img6-large').hide();
 });
 
-$('#img5').on('click', function() {
+$('#img5').hover(function() {
     $('#img1-large').hide();
     $('#img2-large').hide();
     $('#img3-large').hide();
@@ -51,7 +51,7 @@ $('#img5').on('click', function() {
     $('#img6-large').hide();
 });
 
-$('#img6').on('click', function() {
+$('#img6').hover(function() {
     $('#img1-large').hide();
     $('#img2-large').hide();
     $('#img3-large').hide();
